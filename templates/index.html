@@ -24,7 +24,7 @@
       else{
         var prediction = null
         //var requestURL = "http://localhost:5000/classify/"+text;
-        var requestURL = "http://cadaroya.pythonanywhere.com/classify/"+text;
+        var requestURL = "https://text-classifier-app.herokuapp.com/classify"+text;
         console.log(requestURL);
         $.getJSON(requestURL, function(data) {
           console.log(data); 
