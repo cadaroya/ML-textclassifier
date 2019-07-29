@@ -1,0 +1,42 @@
+Counter({'sport': 511, 'business': 510, 'politics': 417, 'tech': 401, 'entertainment': 386})
+{'tech': 0, 'politics': 1, 'sport': 2, 'business': 3, 'entertainment': 4}
+________
+1691    moya sidestep davi cup carlo moya chosen help ...
+1103    poll idol face first hurdl vote pop idol style...
+477     briton fed net servic survey conduct pc pro ma...
+197     lib dem predict best ever poll lib dem set bes...
+475     princ crown top music earner princ earn pop st...
+                              ...                        
+393     market signal brazilian recoveri brazilian sto...
+1746    french consum spend rise french consum increas...
+444     peugeot deal boost mitsubishi struggl japanes ...
+2215    junk e mail relentless rise spam traffic put t...
+733     comeback show friend star friend actress lisa ...
+Name: text, Length: 334, dtype: object
+1691    2
+1103    1
+477     0
+197     1
+475     4
+       ..
+393     3
+1746    3
+444     3
+2215    0
+733     4
+Name: category, Length: 334, dtype: object
+________
+Accuracy on TRAINING set: 0.9725013220518244
+Accuracy on TEST set: 0.9790419161676647
+              precision    recall  f1-score   support
+
+           0       0.98      0.96      0.97        56
+           1       0.97      0.98      0.98        61
+           2       0.99      0.99      0.99        77
+           3       0.97      0.96      0.97        77
+           4       0.98      1.00      0.99        63
+
+   micro avg       0.98      0.98      0.98       334
+   macro avg       0.98      0.98      0.98       334
+weighted avg       0.98      0.98      0.98       334
+
